@@ -29,8 +29,8 @@ public class EmployeePayrollMain {
                     String name = rs.getString("name"); // Retrieve name from db
                     System.out.println(name); // Print result on console
 
-                    String salary
-                            = rs.getString("salary"); // Retrieve name from db
+                    double salary
+                            = rs.getDouble("salary"); // Retrieve name from db
                     System.out.println(salary); // Print result on console
 
                     String startDate
